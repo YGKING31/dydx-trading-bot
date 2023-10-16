@@ -6,7 +6,7 @@ from decouple import config
 MODE = "DEVELOPMENT"
 
 #close all open positions and orders
-ABORT_ALL_POSITIONS = False
+ABORT_ALL_POSITIONS = True
 
 #find cointigrated pairs
 FIND_COINTEGRATED = True
